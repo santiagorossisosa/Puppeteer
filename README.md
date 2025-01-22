@@ -72,6 +72,12 @@ This document provides a brief overview of the available endpoints for the Patie
   - `400`: Invalid input or email already exists.
   - `500`: Server error.
 
+### CURL example (For example, to import into Postman)
+```
+curl --location 'http://localhost:8000/register' \
+--form 'patient_data="{\"name\":\"John Doe\",\"email\":\"john3e@example.com\",\"phone\":\"+1234567890\"}"' \
+--form 'document=@"/path/doc.pdf"'
+```
 ---
 
 ### 2. **Get All Patients**
