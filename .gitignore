@@ -1,0 +1,13 @@
+# IDE and tool-specific configurations
+*.vscode/
+.idea/
+*.DS_Store
+
+# Python generated files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Upload or storage directories
+uploaded_documents/
