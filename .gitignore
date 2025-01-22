@@ -10,4 +10,5 @@
 __pycache__/
 
 # Upload or storage directories
-uploaded_documents/
+uploaded_documents/*
+!uploaded_documents/.gitkeep
